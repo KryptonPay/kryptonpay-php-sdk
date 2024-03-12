@@ -17,14 +17,14 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.0",
-        "nesbot/carbon": "^2.28",
+        "nesbot/carbon": "^3.0",
         "symfony/serializer": "^6.2",
         "symfony/property-access": "^6.2",
         "tightenco/collect": "^9.0",
         "guzzlehttp/guzzle": "^7.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7",
+        "phpunit/phpunit": "^11.0",
         "symfony/var-dumper": "^5.0"
     },
     "autoload": {
