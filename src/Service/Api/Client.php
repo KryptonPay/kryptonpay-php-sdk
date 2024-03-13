@@ -4,11 +4,11 @@ namespace KryptonPay\Service\Api;
 
 use Exception;
 use GuzzleHttp\Client as GuzzleClient;
+use Illuminate\Support\Collection;
 use KryptonPay\Api\ApiContext;
 use KryptonPay\Models\Api\Response;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
-use Tightenco\Collect\Support\Collection;
 
 class Client
 {
